@@ -4,5 +4,5 @@
 
 :package: nova funcionalidade
 :up: atualização
-:beatle: correção de bug
+:Dragon: correção de bug
 :checkered_flag: release
