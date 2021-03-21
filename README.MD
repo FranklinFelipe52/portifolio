@@ -1,7 +1,7 @@
 # portifólio
 
 ## icones 
-fernando
+giu
 :package: nova funcionalidade
 
 :up: atualização
