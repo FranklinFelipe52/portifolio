@@ -2,7 +2,7 @@
 
 ## icones 
 
-giui
+
 :package: nova funcionalidade
 
 :up: atualização
