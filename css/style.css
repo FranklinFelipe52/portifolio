@@ -61,10 +61,11 @@
 }
 
 .sidebar{
-    background-color:white;
+    background-color:rgb(39, 38, 38);
     width: 20rem;
     height: 100vh;
     position: fixed;
+    z-index: 5;
     top: 0;
     right: -20rem;
     transition: all 1s;
@@ -90,11 +91,11 @@
     font-family: var(--font-terciaria);
     font-weight: 400;
     font-size: 2rem;
-    color: grey;
+    color: white;
     transition: color 1s;
 }
 .menu-link:hover{
-    color: #B12BA4;
+    color: #2688b0;
 }
 .social-media{
     
@@ -107,8 +108,8 @@
 
 }
 .social-media i{
-    background-color: #B12BA4 ;
-    color: white;
+    background-color: #2688b0 ;
+    color: rgb(39, 38, 38);
     height: 2.5rem;
     width: 2.5rem;
     font-size: 1.5rem;
@@ -120,7 +121,7 @@
     
 }
 .social-media i:hover{
-    background-color: #E332CE;
+    background-color: #1a546b;
 }
 
 
@@ -143,10 +144,28 @@ header{
     opacity: 0.6;
     animation: zoom 25s;
 }
+.grad-header{
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+    z-index: 3;
+    top: 9.1rem;
+    background-image: linear-gradient(rgba(0,0,0,0), #1a1a1a );
+    background-size: cover;
+}
+.teste{
+    width: 100%;
+    height: 1100px;
+    background-image: url(/img/n1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
 .banner {
     position: absolute;
     top: 30%;
     left: 15%;
+    z-index: 4;
 }
 .banner h1{
     color: white;
@@ -173,9 +192,8 @@ header{
 .banner button{
     font-family: var(--font-terciaria);
     color: white;
-    background: #834d9b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #d04ed6, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: linear-gradient(to left, #2688b0 , #1a5e79 ); 
     border: 0;
     padding: 1rem 2rem;
     cursor: pointer;
@@ -187,8 +205,8 @@ header{
 }
 
 .banner button:hover{
-    background: linear-gradient(to left, #f25afa, #502761);
-    color: black;
+    background: linear-gradient(to left, #1a5e79, #2688b0);
+    
 }
 @keyframes zoom{
     0%{
@@ -208,3 +226,8 @@ header{
         opacity: 1;
     }
 }
+
+
+
+
+
