@@ -24,7 +24,7 @@ function animeScroll(){
    })
 }
 function animeimgScroll(){
-    const windowTop = window.pageYOffset - ((window.innerHeight*3)/10);
+    const windowTop = window.pageYOffset - ((window.innerHeight*3)/5);
     imagens.forEach(function(imagem){
         if(windowTop > imagem.offsetTop){
             imagem.classList.add(ClassImg);
