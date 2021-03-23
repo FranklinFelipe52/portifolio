@@ -153,14 +153,6 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0), #1a1a1a );
     background-size: cover;
 }
-.teste{
-    width: 100%;
-    height: 1100px;
-    background-image: url(/img/n1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
-}
 .banner {
     position: absolute;
     top: 30%;
@@ -226,8 +218,200 @@ header{
         opacity: 1;
     }
 }
+.conhecimentos{
+    width: 100%;
+    height: 60rem;
+    background-color: #1a1a1a;
+    margin: 0;
 
+}
+.testes{
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+    z-index: 10;
+}
+.container-2{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    
+    left: 15%;
+}
+.cabecalho-section-1{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #1a1a1a;
+    
+    
+      
+}
+.cabecalho-section-1 h2{
+    font-family: var(--font-secundaria);
+    font-size: 4rem;
+    color: #ececec;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    opacity: 0;
+    
+    
+}
+.section-1-info{
+    position: relative;
+    width: 100%;
+    height: 84.8%;
+    background-color: #1a1a1a;
+    
+}
+.conhecimentos-item{
+    width: 35rem;
+    height: 8rem;
+    font-family: var(--font-secundaria);
+    font-weight: 400;
+    opacity: 0;
+    
+}
+.conhecimentos-item#css{
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    
+    z-index: 3;
+}
+.conhecimentos-item#html{
+    position: absolute;
+    left: 4rem;
+    top: 20rem;
+    
+    z-index: 3;
+}
+.conhecimentos-item#react{
+    position: absolute;
+    left: 7rem;
+    top: 32rem;
+    
+    z-index: 3;
+}
+.nome-ling{
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    color: #2688b0;
+    text-transform: uppercase;
+    
+    
+    
+}
+.nome-ling i{
+    font-size: 4rem;
+    
+}
+.nome-ling#html-1 i{
+    font-size: 4.5;
+}
+.info-ling{
+    position: relative;
+    font-size: 1.2rem;
+    left: 4rem;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
 
-
-
-
+.nome-ling h3{
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    bottom: .5rem;
+    
+}
+.ling#h{
+    padding-left: 1rem;
+}
+.ling#c{
+    padding-left: 1rem;
+}
+.imagem-garoto{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/img/g1.png);
+    background-size: 100%;
+    
+}
+.img-garoto{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 30rem;
+    height: 20rem;
+}
+.efeito-trans{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #1a1a1a;
+}
+[data-anime]{
+    
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-15rem,0,0);
+}
+.animation{
+    animation: left-2 2s forwards;
+}
+.animationImg{
+    animation: show-img 2s forwards;
+}
+.animationlinha{
+    animation: show-linha 2s forwards;
+}
+.animationtitulo{
+    animation: show-titulo 2s forwards;
+}
+@keyframes left-2 {
+    0%{
+        transform: translate3d(-20rem,0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+@keyframes show-img {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes show-linha {
+    0%{
+        border-bottom: 0;
+    }
+    100%{
+        border-bottom: .1rem solid #727272;
+    }
+}
+@keyframes show-titulo {
+    0%{
+        top: 70%;
+        opacity: 0;
+    }
+    100%{
+        top: 40%;
+        opacity: 1;
+    }
+}
